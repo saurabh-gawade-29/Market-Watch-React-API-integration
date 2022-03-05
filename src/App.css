@@ -1,0 +1,11 @@
+.col-md-2{
+    background-color: #EEEDDE;
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .col-md-2{
+        height: 100%;
+    }
+  }

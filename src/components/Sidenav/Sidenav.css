@@ -1,0 +1,19 @@
+.nav-item:hover{
+    background-color: #E0DDAA;
+}
+
+.nav-link{
+    color: #141E27;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: gold;
+    background-color: #203239;
+}
+  
