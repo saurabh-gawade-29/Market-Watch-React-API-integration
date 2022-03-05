@@ -30,6 +30,7 @@ export class Navbar extends Component {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
+            <a className="navbar-brand market-watch-logo" href="/">Market Watch</a>
           </div>
         </nav>
       </>

@@ -12,7 +12,13 @@ class Home extends Component {
 
   render() {
     return (  
-      <h1>this is home page</h1>
+      <>
+        <div className="container">
+          <div>
+            <h1 className="about-head">WELCOME TO MARKET WATCH</h1>
+          </div>
+        </div>
+      </>
     );
   }
 }

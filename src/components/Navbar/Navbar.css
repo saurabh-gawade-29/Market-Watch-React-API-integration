@@ -1,3 +1,9 @@
 .logo-head{
     color: gold;
 }
+
+.market-watch-logo{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: gold !important;
+}
