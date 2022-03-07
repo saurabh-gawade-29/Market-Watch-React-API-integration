@@ -14,6 +14,7 @@ class Exchange extends Component {
     let url= "https://api.polygon.io/v3/reference/exchanges?asset_class=crypto&apiKey=5230DTQAt9F9mCqMp6S0kKq2psc4RYHL";
     let data = await fetch(url);
     let parseData = await data.json();
+    // data about exchange
     let result = await parseData.results;
     // console.log(result);
 
