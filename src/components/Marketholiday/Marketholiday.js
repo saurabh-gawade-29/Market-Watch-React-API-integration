@@ -7,7 +7,7 @@ export class Marketholiday extends Component {
 
     this.state = {};
   }
-
+  
   render() {
     return (
       <div>
@@ -17,9 +17,9 @@ export class Marketholiday extends Component {
             <h5 className="card-title">Name: {this.props.name}</h5>
             <p className="card-text">Exchange: {this.props.exchange}</p>
             <p className="">Status: {this.props.status}</p>
-            <p className="">Open: {moment(this.props.open).format("h:mm a")}</p>
+            <p className="">Open: {this.props.open ? moment(this.props.open).format("h:mm a") : 'NA' }</p>
             <p className="">
-              Close: {moment(this.props.close).format("h:mm a")}
+              Close: {this.props.close ? moment(this.props.close).format("h:mm a") : 'NA' }
             </p>
           </div>
         </div>

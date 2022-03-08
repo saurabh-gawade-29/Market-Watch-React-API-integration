@@ -9,7 +9,7 @@ class About extends Component {
           <div className="container">
             <h1 className="display-4 about-head">MARKET WATCH</h1>
             <p className="lead about-sub-head">
-              This is a modified jumbotron that occupies the entire horizontal
+              This is a About Page that occupies the entire horizontal
               space of its parent.
             </p>
             <p>
