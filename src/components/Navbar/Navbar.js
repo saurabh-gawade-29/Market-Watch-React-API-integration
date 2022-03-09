@@ -17,7 +17,7 @@ export class Navbar extends Component {
             </span>
           </div>
         </div>
-        <nav className="navbar navbar-dark bg-dark">
+        <nav className="navbar navbar-dark bg-dark sticky-top">
           <div className="container-fluid">
             <button
               className="navbar-toggler"
