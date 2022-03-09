@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Exchange from "./components/Exchange/Exchange";
+import Footer from "./components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -30,6 +31,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </>
     );
   }

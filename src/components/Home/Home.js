@@ -4,6 +4,7 @@ import "./Home.css";
 
 
 class Home extends Component {
+
   constructor(props) {
     super(props);
 
@@ -22,7 +23,7 @@ class Home extends Component {
       items: parsedData,
     });
   }
-  
+
   render() {
     return (
       <>
@@ -32,9 +33,9 @@ class Home extends Component {
             <h3 className="text-danger market-holidays">Market holidays</h3>
             <div className="market-holidays">
               <div className="row">
-                {this.state.items.map((element) => {
+                {this.state.items.map((element, index) => {
                   return (
-                    <div className="col-md-3">
+                    <div className="col-md-3" key={index}>
                       <Marketholiday
                         name={element.name}
                         status={element.status}
