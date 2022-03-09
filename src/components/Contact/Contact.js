@@ -18,8 +18,14 @@ class Contact extends Component {
   contactSubmit = (event) => {
     event.preventDefault();
     alert(
-      `Hello: ${this.state.fullName} your contact name is ${this.state.email} your msg is ${this.state.msg} `
+      `Hello: ${this.state.fullName} your email is ${this.state.email} your msg is ${this.state.msg} `
     );
+
+    this.setState({
+      fullName: "",
+      email: "",
+      msg: "",
+    })
   };
 
   contactOnChange = (event) => {
